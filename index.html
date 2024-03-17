@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -12,10 +12,68 @@
 
 <body>
     <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown lg:ml-32">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li>
+                            <a>About</a>
+
+                        </li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl"><img src="images/P-Ticket.svg" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn btn-success btn-outline bg-green-200 w-32 lg:mr-32 ">
+                    <p class="text-[#1DD100] text-base">Bus</p><img src="images/bus-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- bannder -->
+        <section
+            class=" bg-[url('images/banner.png')] bg-no-repeat bg-center text-center bg-contain lg:h-[550px] flex flex-col justify-center items-center gap-4">
+            <h2 class="text-6xl font-extrabold text-white">End to end travel with</h2>
+            <h2 class="text-6xl font-extrabold text-green-600">P Paribahan</h2>
+            <p class="text-white w-[691px] text-center ">P Paribahan: Where every mile feels like home, we ensure
+                your ride is safe and smooth.
+                From city commutes to long-haul adventures, trust us to get you there with care.
+            </p>
+            <button class="btn btn-success">Buy Tickets</button>
+        </section>
 
     </header>
     <main>
+        <!--coupon section  -->
+        <section class="flex">
+            <div>
 
+            </div>
+            <div>
+
+            </div>
+        </section>
     </main>
     <footer>
 
