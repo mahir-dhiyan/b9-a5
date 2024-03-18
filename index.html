@@ -12,6 +12,7 @@
 
 <body>
     <header>
+        <!-- Nav Bar Section -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown lg:ml-32">
@@ -51,7 +52,7 @@
                 </a>
             </div>
         </div>
-        <!-- bannder -->
+        <!-- banner -->
         <section
             class=" bg-[url('images/banner.png')] bg-no-repeat bg-center text-center bg-contain lg:h-[550px] flex flex-col justify-center items-center gap-4">
             <h2 class="text-6xl font-extrabold text-white">End to end travel with</h2>
@@ -66,12 +67,11 @@
     </header>
     <main>
         <!--coupon section  -->
-
         <section class="text-center space-y-12 mt-20 ">
             <h3 class="text-4xl font-bold">Best offers for you</h3>
             <div class="flex gap-6  justify-center">
                 <div class="coupon-1 flex bg-[#FFBF0F] rounded-3xl p-12 gap-28 relative h-48">
-                    <div class=" ">
+                    <div class="  w-52">
                         <h3 class="text-4xl font-black">15% OFF</h3>
                         <p class="text-xl font-bold">on your next purchase</p>
                         <p class="text-lg">use by January 2024</p>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="coupon-2 flex bg-[#F78C9C] rounded-3xl p-12 gap-28 relative h-48">
-                    <div class="">
+                    <div class=" w-52">
                         <h3 class="text-4xl font-black">20% OFF</h3>
                         <P class="text-xl font-bold">on your next purchase</P>
                         <p class="text-lg">use by January 2024</p>
@@ -101,6 +101,58 @@
 
             </div>
             <button class="btn btn-outline btn-success">See All Offers</button>
+        </section>
+        <!-- Ticketing Section -->
+        <section
+            class="mt-20 bg-[#F7F8F8] p-28 rounded-t-3xl border-t-green-400 border-2 flex flex-col justify-center items-center gap-6">
+            <div class="text-center space-y-5">
+                <h3 class="font-bold text-4xl">P.H Paribahan</h3>
+                <p class="text-lg text-[#03071299 ]">
+                    PH Paribahan's streamlined ticketing system ensures hassle-free booking for passengers, enhancing
+                    their travel experience.</p>
+            </div>
+            <!-- Card and fare part -->
+            <div class="bg-white px-8 rounded-3xl flex justify-between w-3/4">
+                <div class="card-part mt-8 ">
+                    <div class="top-part flex justify-between">
+                        <div class="flex"><img class="mr-3" src="images/bus-logo.png" alt="">
+                            <div>
+                                <h3 class="font-bold text-3xl">Greenlne Paribahan</h3>
+                                <p class="text-lg text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-success btn-outline bg-green-200 text-lg"> <img
+                                src="images/seat-green.png" alt=""><span>40</span>
+                            <p>Seats left</p>
+                        </button>
+                    </div>
+                    <div class="route-part bg-[#F7F8F8] rounded-3xl ">
+                        <div class="flex justify-between p-8">
+                            <p class="text-lg">Route</p>
+                            <p class="text-lg">Dhaka - Sylhet</p>
+
+                        </div>
+                        <hr>
+                        <div class="flex justify-between p-8">
+                            <p class="text-lg">Departure Time</p>
+                            <p class="text-lg">9:00 PM</p>
+                        </div>
+                        <hr>
+                        <div class="flex gap-6 justify-around p-8">
+                            <div class="bg-[#0307120D] p-4 rounded-xl text-base">Boarding Point - Laxmipur</div>
+                            <div class="bg-[#0307120D] p-4 rounded-xl text-base">Dropping Point - Bogra</div>
+                            <div class="bg-[#0307120D] p-4 rounded-xl text-base">Est. Time - 11 Hour</div>
+                        </div>
+
+                    </div>
+                </div>
+                <img class="h-full   " src="images/info-devider.png" alt="">
+                <div class="fare-part mt-8  flex flex-col justify-center items-center  text-center">
+                    <img src="images/fare.png" alt="">
+                    <h4 class="text-2xl font-bold">550 Taka</h4>
+                    <p class="text-gray-500 text-xl font-semibold">Per Seat</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
