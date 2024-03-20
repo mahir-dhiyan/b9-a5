@@ -279,16 +279,16 @@
                         </div>
                         <div class="flex justify-between text-base font-medium">
                             <p>Total Price</p>
-                            <p>BDT <span>1100</span></p>
+                            <p>BDT <span id="total-price">0</span></p>
                         </div>
                         <!-- input -->
-                        <div class="flex"> <input type="text" placeholder="Type here"
-                                class="input input-bordered input-md w-full max-w-xs" /><button
-                                class="btn bg-[#1DD100] text-white">Apply</button></div>
+                        <div class="flex"> <input id="coupon-place" type="text" placeholder="Type here"
+                                class="input input-bordered input-md w-full max-w-xs" /><button id="coupon-apply-button"
+                                class="btn bg-[#1DD100] text-white" disabled onclick="coupon()">Apply</button></div>
                         <!-- total -->
                         <div class="flex justify-between text-base font-medium">
                             <p>Grand Total</p>
-                            <p>BDT <span>1100</span></p>
+                            <p>BDT <span id="grand-total">0</span></p>
                         </div>
                         <div class="font-semibold text-base space-y-6">
                             <p>Passenger Name*</p>
