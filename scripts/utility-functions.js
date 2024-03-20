@@ -9,9 +9,13 @@ function coupon() {
     if (couponTextValue === 'NEW15') {
         const grandTotal = document.getElementById('grand-total');
         grandTotal.innerText = 1870;
+        const couponBox = document.getElementById('coupon-box');
+        couponBox.classList.add('hidden');
     }
     else if (couponTextValue === 'Couple 20') {
         const grandTotal = document.getElementById('grand-total');
         grandTotal.innerText = 1760;
+        const couponBox = document.getElementById('coupon-box');
+        couponBox.classList.add('hidden');
     }
 }
