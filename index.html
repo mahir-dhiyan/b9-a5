@@ -293,8 +293,8 @@
                             <p>Email ID*</p>
                             <input type="email" placeholder="Enter your email id"
                                 class="input input-bordered input-md w-full max-w-xs" />
-                            <button id="final-apply" class="btn bg-[#1DD100] text-white w-full max-w-xs"
-                                disabled>Apply</button>
+                            <button id="final-apply" onclick="openModal()"
+                                class="btn bg-[#1DD100] text-white w-full max-w-xs" disabled>Apply</button>
                             <div class="flex  text-[#03071299] underline">
                                 <a href="">Terms and Conditions</a>
                                 <a href=""></a>Cancelletion Policy
@@ -328,6 +328,21 @@
             </div>
         </div>
     </footer>
+    <!-- Modal structure -->
+    <dialog id="my_modal_1" class="modal">
+        <div class="modal-box flex flex-col items-center gap-2">
+            <div class=""><img src="images/success.png" alt=""></div>
+            <h3 class="font-bold  text-2xl font">Success</h3>
+            <p class="font-medium text-xl text-center">Thank you for Booking Our Bus Seats. We are working hard to find
+                the best service and deals for you.</p>
+            <p class="font-light text-xl">Shortly you will find a confirmation in your email.</p>
+            <p class="py-4">Press ESC key or click the button below to close</p>
+            <div class="modal-action">
+                <!-- Close button -->
+                <button class="btn" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </dialog>
     <script src="scripts/b9-a5.js"></script>
     <script src="scripts/utility-functions.js"></script>
 </body>

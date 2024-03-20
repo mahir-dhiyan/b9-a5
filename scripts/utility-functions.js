@@ -19,3 +19,16 @@ function coupon() {
         couponBox.classList.add('hidden');
     }
 }
+
+// Get the modal element
+var modal = document.getElementById('my_modal_1');
+
+// Function to open the modal
+function openModal() {
+    modal.showModal();
+}
+
+// Function to close the modal
+function closeModal() {
+    modal.close();
+}
